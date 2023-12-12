@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nur Qushairi's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/482ecf9152.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo6.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Experience</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>  
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer Graduate</p>
+                <h1>Hi, I'm <span>Nur Qushairi</span><br>from Cyberjaya</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------about--------------------------->
+    <div id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user1.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"><br>About Me</h1>
+                    <p>I am a fresh graduate of Multimedia University (MMU) Cyberjaya Campus under the course of <br> Bachelor Degree of Computer Science 
+                        specialization in Software Engineering. 
+                        <br><br> Dealing with the IT field has been tough, with ups and downs. Despite the challenges,
+                        I'm not embarrassed or discouraged. I actually  enjoy the learning process and look forward to handling it better as I move ahead. </p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"  onclick="opentab('education')">Education</p>
+                        <p class="tab-links"  onclick="opentab('experience')">Work Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <div class="skills-container">
+                            <ul class="skills-list">
+                                <li>
+                                    <i class="fa-brands fa-html5"></i>
+                                    <span>HTML5</span>
+                                </li>
+                                <li>
+                                    <i class="fa-brands fa-css3-alt"></i>
+                                    <span>CSS3</span>
+                                </li>
+                                <li>
+                                    <i class="fa-brands fa-js"></i>
+                                    <span>JavaScript</span>
+                                </li>
+                                <li>
+                                    <i class="fa-brands fa-android"></i>
+                                    <span>Android Studio (Dart)</span>
+                                </li>
+                                <li>
+                                    <i class="fa-brands fa-java"></i>
+                                    <span>Java</span>
+                                </li>
+                                <li>
+                                    <i class="fa-brands fa-figma"></i>
+                                    <span>Figma</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-file-powerpoint"></i>
+                                    <span>Microsoft Powerpoint</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-file-word"></i>
+                                    <span>Microsoft Word</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-file-excel"></i>
+                                    <span>Microsoft Excel</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <div class="content-box">
+                            <ul>
+                                <li>
+                                    <span>2018 - 2023</span><br>
+                                    <p>Multimedia University (MMU)<br>Bachelor of Computer Science (Hons.) specialization in Software Engineering</p>
+                                </li>
+                                <li>
+                                    <span>2022</span><br>
+                                    Malaysian University English Test (MUET)<br>Band 4
+                                </li>
+                                <li>
+                                    <span>2016 - 2017</span><br>
+                                    Multimedia University (MMU)<br>Foundation in Information Technology
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <div class="content-box">
+                            <ul>
+                                <li>
+                                    <span>July 2023 - Oct 2023</span><br>
+                                    INTERNSHIP - IT Software Support
+                                </li>
+                                <li>
+                                    <span>NSS IT Solution Sdn Bhd</span><br>
+                                    <i class="fa-solid fa-caret-right"></i>     Perform User Acceptance Testing on Komuter KDVT Online website, KDVT Counter Function, KTMB Dev Mobile Application, and ACG at KL Sentral.
+                                    <br>
+                                    <i class="fa-solid fa-caret-right"></i>     Using Figma doing User Interface Prototype of admin website, and online counter function system.
+                                    <br>
+                                    <i class="fa-solid fa-caret-right"></i>     Perform website, and mobile application testing.
+                                    <br>
+                                    <i class="fa-solid fa-caret-right"></i>     Writing Test Script for UAT and other testing.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ---------------------services----------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Internship Experience</h1>
+            <h2 class="company-name">NSS IT SOLUTION SDN BHD - IT Software Support</h2>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <h2>Writing Test Script</h2>
+                    <p>A <b>line-by-line description</b> of all the actions that are necessary to perform and test on.</p> 
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Creating Prototype</h2>
+                    <p><b>Figma</b> was used to create a <b>responsive prototype</b> of the software.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-microscope"></i>
+                    <h2>Perform Testing</h2>
+                    <p><b>Perform User Acceptance Testing</b> on Komuter KDVT Online website, KDVT Counter Function, KTMB Dev Mobile Application, and ACG at KL Sentral.</p>
+                </div>
+            </div>
+            <div class="see-more-button">
+                <button id="seeMoreBtn" onclick="toggleImages()">See more</button>
+            </div>
+            <br>
+            <div class="row1" id="row1">
+                <div class="column1">
+                    <img src="images/testscript1.png" alt="Image 1">
+                    <p>Task: Writing Test Script</p>
+                </div>
+                <div class="column2">
+                    <img src="images/img1.jpg" alt="Image 2">
+                    <p>Task: Perform UAT at the KDVT Counter Function and form a protype of the replica. </p>
+                </div>
+                <div class="column3">
+                    <img src="images/img2.png" alt="Image 2">
+                    <p>Task: Perform testing as Admin to set the royalty point</p>
+                </div>
+            </div>
+            <br><br>
+            <div class="row2" id="row2">
+                <div class="column1">
+                    <img src="images/img6.jpeg.jpg" alt="Image 3">
+                    <p>Task: Perform UAT testing for KTMB Dev Mobile Application</p>
+                </div>
+                <div class="column2">
+                    <img src="images/img4.jpeg.jpg" alt="Image 4">
+                    <p>Task: Perform UAT for ACG at KL Sentral</p>
+                </div>
+                <div class="column3">
+                    <img src="images/img5.png" alt="Image 2">
+                    <p>Task: Perform UAT testing for Komuter KDVT Online, and form a protytpe of the replica.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ---------------------portfolio----------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Final Year Project (FYP)</h1>
+        <h2 class="fyp-description">Respire Environmetal Data Air Quality System via Mobile Application</h2>
+        <p class="app-description">A mobile application
+            named TACRES designed for asthmatic patients to evaluate
+            their asthma by keeping track of the weather conditions and
+            observation from tools as preventive measures to
+            reduce the chances of asthma triggered. Flutter, dart, java and
+            android studio were used in completing this project.
+        </p>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/login.jpg" alt="">
+                <div class="layer">
+                    <h3>Login Page</h3>
+                    <p>The user may fill in the registered email and password to login the TACRES.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/home.jpg" alt="">
+                <div class="layer">
+                    <h3>Home Page</h3>
+                    <p>Detect and display current location, weather and AQI, display current and previous exacerbation of one's asthma,
+                        and choice of taking GINA test or see record,
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/sidemenu.jpg" alt="">
+                <div class="layer">
+                    <h3>Sidebar Menu</h3>
+                    <p>It represents the sidebar menu of the TACRES application including GINA test, GINA record, FAQ, and language switches.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/forecast.jpg" alt="">
+                <div class="layer">
+                    <h3>Weather Forecast</h3>
+                    <p>Display weather forecast hourly and daily for asthma users to predict the weather before they went outside.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="work-list" id="additional-works" style="display: none;">
+            <div class="work">
+                <img src="images/question.jpg" alt="">
+                <div class="layer">
+                    <h3>GINA Questions</h3>
+                    <p>GINA is a preventive measure for asthma user. There are 4 listed questions and their answer field. 
+                        The user only need to answer all question and click on submit button to get GINA Score.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/answer.jpg" alt="">
+                <div class="layer">
+                    <h3>GINA's Scores and Health Recommendation</h3>
+                    <p>The user that scores 0 which indicates that the asthma is well controlled, a score of 1-2 indicates that the asthma is partially controlled, and if the user scores 3-4 out of 4 means the asthma is out of control and the patients should seek help.
+                        <br><br>Below the score chart are health recommendations based on weather that appear as Asthma Action Plan (AAP). It display the current weather  and suggest to the patient what is right</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/ginarecord.jpg" alt="">
+                <div class="layer">
+                    <h3>Page of GINA Data</h3>
+                    <p>It displays the history of the user while taking GINA. It display the date, the status of the GINA, the weather, 
+                        the air quality index (AQI) of the place, and the place where the user took the GINA..</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/ginacolor.png" alt="">
+                <div class="layer">
+                    <h3>Asthma Action Plan Color Coded</h3>
+                    <p>The score result resulting with associated colour. If the user scores 0, the colour will display green as to show their asthma are well-controlled, while the score is between 1-2, the colour will be resulting in orange  as it is Partly Controlled Asthma, 
+                        and if the score is between 3-4, the colour will be red and the user need to seek help as the asthma is uncontrolled.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/malay.jpg" alt="">
+                <div class="layer">
+                    <h3>Switch to Malay Language</h3>
+                    <p>The user can switch to any 4 languages that may ease them in using TACRES.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/chinese.jpg" alt="">
+                <div class="layer">
+                    <h3>Switch to Chinese Language</h3>
+                    <p>The user can switch to any 4 languages that may ease them in using TACRES.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/tamil.jpg" alt="">
+                <div class="layer">
+                    <h3>Switch to Tamil Language</h3>
+                    <p>The user can switch to any 4 languages that may ease them in using TACRES.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/faq.jpg" alt="">
+                <div class="layer">
+                    <h3>FAQ</h3>
+                    <p>It displays the detailed explanation on how the applications work and the meaning of some scientific terms inside the applications..</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <a href="#" class="btn" id="see-more-btn">See More</a>
+    </div>
+
+</div>
+<!-- ---------------------contact----------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>menurqushairis@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+6011-10433009</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/nurqushairis"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/nur-qushairi-joperi-bbb7a828b/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://wa.link/3v02vp"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <a href="images/Nur-Qushairi's-Resume.pdf" download class="btn btn3">Download Resume</a>
+            </div>
+            <div class="contact-right">   
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class ="btn btn3">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Qushairi. <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (let tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (let tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+
+        // Find the corresponding tab content by ID and add the active-tab class
+        var selectedTab = document.getElementById(tabname);
+        selectedTab.classList.add("active-tab");
+    }
+
+</script>
+<script>
+    var sidemnu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw52VPY3N7vDWNtdRFrgj8K_MdGlGRXERMZ5Io1BBzFxGkI2dwxBUWKFdTuCoSMvJUQ/exec';
+    const form = document.forms['submit-to-google-sheet'];
+    const msg = document.getElementById("msg");
+
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                msg.innerHTML = "Message sent successfully";
+                msg.classList.add("success-message"); // Add the success class
+                setTimeout(function () {
+                    msg.innerHTML = "";
+                    msg.classList.remove("success-message"); // Remove the success class
+                }, 5000);
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message));
+    });
+</script>
+>
+<script>
+    function toggleImages() {
+        var row1 = document.getElementById("row1");
+        var row2 = document.getElementById("row2");
+
+        if (row1.style.display === "none") {
+            // Show the image rows and change button text to "See less"
+            row1.style.display = "flex";
+            row2.style.display = "flex";
+            document.getElementById("seeMoreBtn").innerHTML = "See less";
+        } else {
+            // Hide the image rows and change button text to "See more"
+            row1.style.display = "none";
+            row2.style.display = "none";
+            document.getElementById("seeMoreBtn").innerHTML = "See more";
+        }
+    }
+</script>
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+    var seeMoreBtn = document.getElementById("see-more-btn");
+    var initialWorks = document.getElementById("initial-works");
+    var additionalWorks = document.getElementById("additional-works");
+
+    // Add event listener to the "See More" button
+    seeMoreBtn.addEventListener("click", function (event) {
+        // Toggle the visibility of additional works
+        additionalWorks.style.display = additionalWorks.style.display === "none" ? "grid" : "none";
+
+        // Change the text of the button based on its visibility
+        seeMoreBtn.textContent = additionalWorks.style.display === "none" ? "See More" : "See Less";
+
+        // Prevent the default behavior (e.g., page scroll to top) when clicking the button
+        event.preventDefault();
+    });
+
+    // Function to add additional works dynamically
+    function addAdditionalWorks() {
+        // Add your additional works here dynamically
+        // For example, you can clone existing work elements and append them to additionalWorks
+        for (var i = 0; i < 8; i++) {
+            var clonedWork = initialWorks.children[i].cloneNode(true);
+            additionalWorks.appendChild(clonedWork);
+        }
+    }
+
+
+    // Call the function to add additional works initially
+    addAdditionalWorks();
+
+    // Add event listener to the "See Less" button
+    seeMoreBtn.addEventListener("click", function (event) {
+        if (additionalWorks.style.display === "grid") {
+            // If additional works are visible, hide them
+            additionalWorks.style.display = "none";
+            seeMoreBtn.textContent = "See More";
+
+            // Prevent the default behavior (e.g., page scroll to top) when clicking the button
+            event.preventDefault();
+        } else {
+            // If additional works are hidden, show them
+            addAdditionalWorks();
+            additionalWorks.style.display = "grid";
+            seeMoreBtn.textContent = "See Less";
+
+            // Prevent the default behavior (e.g., page scroll to top) when clicking the button
+            event.preventDefault();
+        }
+    });
+});
+</script>
+
+
+</body>
+</html>
